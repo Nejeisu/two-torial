@@ -1,5 +1,5 @@
 # Taiko no Tatsujin Nijiiro
-<img src="/img/taikonijiiro/taikonijiiro.png">
+<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/taikonijiiro.png?raw=true">
 
 !!! danger "Tenha certeza de que você baixou os arquivos de uma fonte confiável.<br>Esse guia é incapaz de resolver problemas relacionados à má gestão de gerenciamento dos arquivos."
 

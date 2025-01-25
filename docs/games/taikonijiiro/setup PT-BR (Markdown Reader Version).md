@@ -62,13 +62,12 @@ Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando
 	```
 
 ℹ️ A aba `[graphics]` contém configurações relacionadas a patches de mudança de resolução do jogo 
-
-	- `res =` Altera a resolução do game.
-	- `windowed =` Coloque como `true` se caso desejar rodar o game em modo janela.
-	- `cursor =` Meramente visual. Altere se caso desejar.
-    - `vsync =` Coloque como `true` se caso o seu monitor tenha a taxa de 120hz e esteja configurado com essa taxa de atualização.                                        
-	- `fpslimit =` Não mude caso não saiba o que está fazendo.  
-	- `model_res_rate =` Não mude caso não saiba o que está fazendo.  
+- `res =` Altera a resolução do game.
+- `windowed =` Coloque como `true` se caso desejar rodar o game em modo janela.
+- `cursor =` Meramente visual. Altere se caso desejar.
+- `vsync =` Coloque como `true` se caso o seu monitor tenha a taxa de 120hz e esteja configurado com essa taxa de atualização.                                        
+- `fpslimit =` Não mude caso não saiba o que está fazendo.  
+- `model_res_rate =` Não mude caso não saiba o que está fazendo.  
 
 	```toml
 	[graphics]
@@ -82,8 +81,8 @@ Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando
 
 ℹ️ A aba `[keyboard]` contém configurações relacionadas ao teclado"
 
-	- `auto_ime =` Se colocar como `true`, altera o leiaute do teclado até o jogo ser fechado.
-	- `jp_layout =` Deve ser colocado como `true` caso você use teclado japonês **moderno**.
+- `auto_ime =` Se colocar como `true`, altera o leiaute do teclado até o jogo ser fechado.
+- `jp_layout =` Deve ser colocado como `true` caso você use teclado japonês **moderno**.
 
 	```toml
 	[keyboard]

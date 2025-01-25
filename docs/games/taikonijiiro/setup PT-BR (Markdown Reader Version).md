@@ -111,7 +111,9 @@ O leiaute padrão usa:
 Se você desejar mudar o leiaute padrão, você pode alterar abrindo o arquivo `keyconfig.toml` com o editor de texto de sua preferência. 
 
 ℹ️ Controles
+
 A configuração do controle "tambor" e o controle convencional é o mesmo processo.
+
 - Abrindo o arquivo `config.toml` coloque `wait_period =` para `0`           
     - Se você estiver usando um controle que não use os botões como as teclas do teclado, voce deve configurar as teclas em SDL editando o arquivo `keyconfig.toml`
     - Se caso usar os analógicos para o mapeamento dos botões do controle "tambor" `analog_input = false` to `true` in `config.toml`

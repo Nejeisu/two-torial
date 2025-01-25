@@ -22,7 +22,7 @@
 ℹ️ `TaikoArcadeLoader` é um loader e emulador do hardware do arcade do Nijiro. Ele permite você abrir o jogo, configurar controles e o servidor de rede. Mais informações podem ser encontrado [na pagina do github do TAL](https://github.com/esuo1198/TaikoArcadeLoader).
 
 
-- Baixe a última versão do TAL [na aba actions](https://github.com/esuo1198/TaikoArcadeLoader/actions) Na pagina do TAL. O arquivo deve estar nomeado como `TaikoArcadeLoader`. é obrigatório estar logado no github para baixar este arquivo.
+- Baixe a última versão do TAL [na aba actions](https://github.com/esuo1198/TaikoArcadeLoader/actions) no Github do TAL. O arquivo deve estar nomeado como `TaikoArcadeLoader`. é obrigatório estar logado no Github para baixar este arquivo.
 
 	- Se caso o link do github não estiver funcionando no momento ou esteja quebrado, você poderá baixar o arquivo no nosso servidor do [Discord](https://discord.gg/cZRUmEPK78) no canal de texto `Taiko > Resources`
 
@@ -44,12 +44,12 @@ Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando
 
 ℹ️ A Aba `[amauth]` contém configurações relacionadas a rede
 
-	- `server =` Mantenha ess opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma [Rede online](#Tipos de rede).                                 
-	- `port =` Não mude caso não saiba o que está fazendo.                                                                           
-	- `chassis_id =` Não mude caso não saiba o que está fazendo.    
-	- `shop_id =` Meramente visual. Altere se caso desejar.                            
-	- `game_ver =` Meramente visual. Altere se caso desejar.                                                               
-	- `country_code =` Não mude caso não saiba o que está fazendo.                                                           
+- `server =` Mantenha ess opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma Rede online.                                 
+- `port =` Não mude caso não saiba o que está fazendo.                                                                           
+- `chassis_id =` Não mude caso não saiba o que está fazendo.    
+- `shop_id =` Meramente visual. Altere se caso desejar.                            
+- `game_ver =` Meramente visual. Altere se caso desejar.                                                               
+- `country_code =` Não mude caso não saiba o que está fazendo.                                                           
 
 	```toml
 	[amauth]

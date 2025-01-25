@@ -185,6 +185,7 @@
 	Se você desejar abrir o test menu (DIP Switches) pressioando a tecla ++f1++ na tela de opções usando as `setinhas` e aperte a tecla ++enter++, indo para a opção `MOD MANAGER`.
 
 	<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/mod.png?raw=true">
+<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/mod.png?raw=true">
 
 !!! tip ""
 	

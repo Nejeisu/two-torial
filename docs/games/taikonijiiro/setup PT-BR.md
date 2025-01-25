@@ -10,7 +10,7 @@
 
 	Taiko é geralmente distribuído em uma única pasta. Na versão Nijiro o conteúdo deve estar nomeado como `SBWY 39.06`. O jogo deve conter as seguintes pastas `AMCUS`, `Data` e `Executable`.
 
-<img src="/img/taikonijiiro/setup/1.png">
+<img src="/img/taikonijiiro/setup/1 PT-BR.PNG">
 
 !!! danger "A versão Nijiro de Taiko é rolling release e é altamente aconselhável verificar a versão do jogo abrindo o arquivo  `AMCUS\AMConfig.ini` e verificando se está descrito `cacfg-game_ver=39.06`"
 

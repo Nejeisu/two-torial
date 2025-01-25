@@ -19,7 +19,7 @@
 ---
 ### instalando o TaikoArcadeLoader (TAL)
 
-ℹ️ `TaikoArcadeLoader` é um loader e emulador do hardware do arcade do Nijiro. Ele permite você abrir o jogo, e também configurar controles e o servidor de rede. Mais informações podem ser encontrado [na pagina do github do TAL](https://github.com/esuo1198/TaikoArcadeLoader).
+ℹ️ `TaikoArcadeLoader` é um loader e emulador do hardware do arcade do Nijiro. Ele permite você abrir o jogo, configurar controles e o servidor de rede. Mais informações podem ser encontrado [na pagina do github do TAL](https://github.com/esuo1198/TaikoArcadeLoader).
 
 
 - Baixe a última versão do TAL [na aba actions](https://github.com/esuo1198/TaikoArcadeLoader/actions) Na pagina do TAL. O arquivo deve estar nomeado como `TaikoArcadeLoader`. é obrigatório estar logado no github para baixar este arquivo.

@@ -29,7 +29,7 @@
 
 	- Copie os arquivos do `TaikoArcadeLoader.zip` para dentrdo do diretório `Executable/Release`. Caso o sistema pergunte, escolha a opção `Substituir o arquivo no destino` substituindo os arquivos existentes com os novos.  
 
-	<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/2%20PT-BR.PNG?raw=true">
+ <img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/2%20PT-BR.PNG?raw=true">
 
 ### Configurando TaikoArcadeLoader
 

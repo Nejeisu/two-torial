@@ -181,7 +181,7 @@
 	Abra o arquivo `Taiko.exe` para iniciar o jogo.
 
     Entre na opção I/O na tela de "DIP Switches" pressionando a tecla ++f1++ na tela de opções usando as `setinhas` do teclado e apertando a tecla ++enter++, vá na opção `I/O TEST` -> `TAIKO TEST`. Ajuste essas configurações do jeito que você prefira, pois a configuração varia por tipo de controle. Caso não tenha certeza sobre o que alterar, deixe as opções padrão do jeito que estão.
-
+<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/io.png?raw=true">
 	Se você desejar abrir o test menu (DIP Switches) pressioando a tecla ++f1++ na tela de opções usando as `setinhas` e aperte a tecla ++enter++, indo para a opção `MOD MANAGER`.
 
 	<img src="https://github.com/Nejeisu/two-torial/blob/master/docs/img/taikonijiiro/setup/mod.png?raw=true">

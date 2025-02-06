@@ -25,7 +25,7 @@
 
 	- Baixe a última versão do TAL [na aba actions](https://github.com/esuo1198/TaikoArcadeLoader/actions) Na pagina do TAL. O arquivo deve estar nomeado como `TaikoArcadeLoader`. é obrigatório estar logado no github para baixar este arquivo.
 
-	- Se caso o link do github não estiver funcionando no momento ou esteja quebrado, você poderá baixar o arquivo no nosso servidor do [Discord](https://discord.gg/cZRUmEPK78) no canal de texto `Taiko > Resources`
+
 
 	- Copie os arquivos do `TaikoArcadeLoader.zip` para dentrdo do diretório `Executable/Release`. Caso o sistema pergunte, escolha a opção `Substituir o arquivo no destino` substituindo os arquivos existentes com os novos.  
 

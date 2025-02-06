@@ -146,6 +146,11 @@ nav:
           - "Game Setup": "games/maimaidx/buddies/setup.md"
           - "Controllers": "games/maimaidx/buddies/controllers.md"
           - "Troubleshooting": "games/maimaidx/buddies/troubleshooting.md"
+      - "ONGEKI":
+        - "bright MEMORY":
+          - "Game Setup": "games/ongekibrightmemory/setup.md"
+          - "Controllers": "games/ongekibrightmemory/controllers.md"
+          - "Troubleshooting": "games/ongekibrightmemory/troubleshooting.md"
     - NAMCO:
       - "Taiko no Tatsujin: Nijiiro":
         - "Game Setup": "games/taikonijiiro/setup.md"
@@ -167,6 +172,10 @@ nav:
     - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
     - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
   - Other Resources: resources.md
+
+not_in_nav: |
+  games/chusan
+  games/mu3
 
 theme:
   name: material

@@ -69,6 +69,8 @@
 
     <img width="500" src="/img/chunithm/sdhd/setup/2_chunithmoption.png">
 
+!!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
+
 #### Installing ICFs
 
 !!! tip ""
@@ -94,10 +96,8 @@
 
     CHUNITHM executables are protected and will not run on a regular computer.
 
-    Obtained unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `chusanApp.exe` and `amdaemon.exe` for your game version. If these weren't
-    provided with your data, join the [Discord](https://discord.gg/cZRUmEPK78)
-    for assistance.
+    Obtain unprotected (also called "unpacked" or "decrypted" by the community)
+    copies of `chusanApp.exe` and `amdaemon.exe` for your game version.
 
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
@@ -308,7 +308,7 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chusan/troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chunithmluminousplus/troubleshooting.md) page."
 
 !!! tip
 
@@ -381,8 +381,8 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 ### Further configuration
 
-!!! info "Input methods and controllers are covered in the [Controllers](../chusan/controllers.md) page."
+!!! info "Input methods and controllers are covered in the [Controllers](../chunithmluminousplus/controllers.md) page."
 
 !!! warning "Have any other issues?"
 
-	Check out the [Troubleshooting](../chusan/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
+	Check out the [Troubleshooting](../chunithmluminousplus/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.

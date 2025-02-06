@@ -1,12 +1,14 @@
-# Game Setup (SUN PLUS)
-<img src="/img/chunithm/sdhd/sunplus.png">
+# Game Setup (ONGEKI bright MEMORY)
+<div style="text-align: center;">
+    <img src="/img/ongeki/sddt/brightmemory.png" width="50%">
+</div>
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-!!! danger "If you're coming from a previous version of CHUNITHM"
+!!! danger "If you're coming from a previous version of ONGEKI"
 
     You'll want to create a new folder for the game and start from scratch.
-    CHUNITHM **DOES NOT** like being extracted over old data!
+    ONGEKI **DOES NOT** like being extracted over old data!
 
 ---
 
@@ -27,15 +29,15 @@
 
 	You should end up with a file structure as follows.
 
-    <img width="500" src="/img/chunithm/sdhd/setup/0_chunithmdata.png">
+    <img width="500" src="/img/ongeki/sddt/setup/0_ongekidata.png">
 
     Create another empty folder named `AppData` next to them. It should now look like below.
 
-    <img width="500" src="/img/chunithm/sdhd/setup/0_chunithmdata_withappdata.png"> 
+    <img width="500" src="/img/ongeki/sddt/setup/0_ongekidata_withappdata.png">
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/chunithm/sdhd/setup/1_chunithmapp.png">
+    <img width="500" src="/img/ongeki/sddt/setup/1_ongekiapp.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -59,7 +61,7 @@
 
 !!! tip ""
 
-    CHUNITHM content updates are distributed through option folders instead of patching
+    ONGEKI content updates are distributed through option folders instead of patching
     the base game. They are named `A???`, with each `?` being a number. Custom options
     distributed by the community might use letters instead, to distinguish them from
     official ones.
@@ -67,9 +69,11 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/chunithm/sdhd/setup/2_chunithmoption.png">
+    In some cases, your data may have options in `App\package\option`. If so, move
+    all contents inside to the `Option` folder where `App` and `AppData` are and delete the `App\package\option` folder.
 
-!!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
+    <img width="500" src="/img/ongeki/sddt/setup/2_ongekioption.png">
+
 
 #### Installing ICFs
 
@@ -80,49 +84,34 @@
 
     If your `amfs` folder already has a file named `ICF1`, skip this step.
 
+    In some cases, your data may have a folder containing ICFs in `App\package\amfs`.
+    If so, move all contents inside to the `amfs` folder where `App` and `AppData`,
+    delete the `App\package\amfs` folder, and skip this step.
+
     Otherwise, obtain copies of `ICF1` for your game version and place it in
     the `amfs` folder. If it is named something else, rename it to exactly
     `ICF1` **without any file extensions.**
+
+
+
 
 !!! info "Showing file extensions"
 
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
-    
+
 
 #### Installing unprotected executables
 
 !!! tip ""
 
-    CHUNITHM executables are protected and will not run on a regular computer.
+    ONGEKI executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `chusanApp.exe` and `amdaemon.exe` for your game version.
+    copies of `mu3.exe` and `amdaemon.exe` for your game version.
 
-    Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
+    Copy `mu3.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
-
----
-
-### Patching the game
-
-!!! info "Go through the [Web Patching](../../extras/patchweb.md) guide to learn how to use a web patcher."
-
-    There are **many** patches for CHUNITHM.
-
-    We will only bring up the ones we think could be genuinely useful.
-
-!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
-
-| Patch                        | Recommendation | Description |
-|------------------------------|----------------|-------------|
-| Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.**
-| Force 2 channel audio output | Either         | Try enabling this patch if you don't get audio output at all. |
-| Disable song select timer    | Either         | Disables the song select timer. |
-| No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
-| No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
-| Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
-| Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
 
 ---
 
@@ -132,12 +121,12 @@
 
     - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
     and download `segatools.zip`. **Do not download the source code.**
-    - Extracting the archive should give you a few more zip files. Find **`chusan.zip`**
+    - Extracting the archive should give you a few more zip files. Find **`mu3.zip`**
     and extract it to the `App\bin` folder in your game data.
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/chunithm/sdhd/setup/3_segatools_installed.png">
+    <img width="500" src="/img/ongeki/sddt/setup/3_ongeki_segatools_installed.png">
 
 ---
 
@@ -147,7 +136,7 @@
 
     Since there is no graphical configuration tool for segatools, you will have to edit the
     configuration file by hand. It is found in `App\bin\segatools.ini`.
-    
+
     It is recommended that you follow along using a text editor with syntax highlighting such as [Notepad++](https://notepad-plus-plus.org/).
 
     Each following sub-section will correspond to a section in `segatools.ini`. If any
@@ -176,30 +165,6 @@
     amfs=../../amfs
     option=../../Option
     appdata=../../AppData
-    ```
-
-#### `[system] (formerly [gpio])`
-
-!!! warning
-
-    As of 2024-08-20, the [gpio] section in segatools has been renamed to [system].
-
-!!! tip ""
-
-    - If you have a 120Hz monitor, set `dipsw2` and `dipsw3` to 0:
-
-    ```ini
-    [system]
-    dipsw2=0
-    dipsw3=0
-    ```
-
-    - If you have a 60Hz monitor, set `dipsw2` and `dipsw3` to 1:
-
-    ```ini
-    [system]
-    dipsw2=1
-    dipsw3=1
     ```
 
 #### `[gfx]`
@@ -243,7 +208,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/chunithm/sdhd/setup/4_access_code.png">
+    <img src="/img/ongeki/sddt/setup/4_access_code.png">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -275,7 +240,7 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/chunithm/sdhd/setup/5_audio.png">
+    <img src="/img/ongeki/sddt/setup/5_audio.png">
 
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
@@ -296,7 +261,7 @@
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chunithmsunplus/troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../ongekibrightmemory/troubleshooting.md) page."
 
 !!! tip
 
@@ -309,25 +274,25 @@
 
     If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
+    Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
 
-<img src="/img/chunithm/sdhd/setup/servicemenu/0_asettings.png">
+<img src="/img/ongeki/sddt/setup/4_ongeki_groupcheck.png">
 
 !!! tip ""
 
     Press your `Test` button (default `F1`) to enter the service menu. Use the `Service` button
     (default `F2`) to navigate the menu, and `Test` button to select an option.
 
-    Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 4th option).
+    Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 6th option).
 
-<img src="/img/chunithm/sdhd/setup/servicemenu/1_gamesettings.png">
+<img src="/img/ongeki/sddt/setup/servicemenu/1_gamesettings.png">
 
 !!! tip ""
 
-    Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
+    Select **グループ内基準機の設定** (`SET STANDARD IN GROUP`, the second option)
     and toggle this setting to **基準機** (`STANDARD`).
 
-<img src="/img/chunithm/sdhd/setup/servicemenu/2_reference.png">
+<img src="/img/ongeki/sddt/setup/servicemenu/2_reference.png">
 
 !!! tip ""
 
@@ -339,27 +304,19 @@
 
     Navigate to **閉店設定** (`CLOSE SETTING`, the 10th option).
 
-<img src="/img/chunithm/sdhd/setup/servicemenu/3_closingsetting.png">
+<img src="/img/ongeki/sddt/setup/servicemenu/3_closesetting.png">
 
 !!! tip ""
 
     Navigate to **時** (`HOUR`, the 2nd option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-<img src="/img/chunithm/sdhd/setup/servicemenu/4_alltime.png">
+<img src="/img/ongeki/sddt/setup/servicemenu/4_alltime.png">
 
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu, then select **終了**
     (also the last option) in the main menu to exit the service menu.
-
-#### Waiting for Distribution Server
-
-!!! tip ""
-
-    If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
-
-<img src="/img/chunithm/sdhd/setup/servicemenu/5_distserver.png">
 
 !!! tip ""
 
@@ -367,10 +324,37 @@
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
 
-### Further configuration
+---
 
-!!! info "Input methods and controllers are covered in the [Controllers](../chunithmsunplus/controllers.md) page."
+### Custom Mods
+
+!!! tip ""
+
+    !!! danger "Please use BepInEx to load all mods including MelonLoader and MonoMods"
+
+    Mods have historically been hardcoded into the unprotected `Assembly-CSharp.dll` which the user can
+    enable/disable with the `mu3.ini` configuration. The modern approach is to use
+    BepInEx to load custom mods without hardmodding the Assembly-CSharp file.
+
+    To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest),
+    extract the BepInEx folder to the `App/package` folder, and modify `segatools.ini` with the following:
+
+    ```ini
+    [unity]
+    enable=1
+    targetAssembly=BepInEx\core\BepInEx.Preloader.dll
+    ```
+
+    - BepInEx: place mods in `BepInEx/Plugins`
+    - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader/Mods`
+    - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx/monomod`
+
+---
+
+### Controllers and Troubleshooting
+
+!!! info "Input methods and controllers are covered in the [Controllers](../ongekibrightmemory/controllers.md) page."
 
 !!! warning "Have any other issues?"
 
-	Check out the [Troubleshooting](../chunithmsunplus/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
+	Check out the [Troubleshooting](../mu3/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.

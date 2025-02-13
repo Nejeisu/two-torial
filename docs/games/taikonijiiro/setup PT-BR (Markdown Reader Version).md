@@ -42,7 +42,7 @@ Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando
 
 ℹ️ A Aba `[amauth]` contém configurações relacionadas a rede
 
-- `server =` Mantenha ess opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma Rede online.                                 
+- `server =` Mantenha essa opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma Rede online.                                 
 - `port =` Não mude caso não saiba o que está fazendo.                                                                           
 - `chassis_id =` Não mude caso não saiba o que está fazendo.    
 - `shop_id =` Meramente visual. Altere se caso desejar.                            

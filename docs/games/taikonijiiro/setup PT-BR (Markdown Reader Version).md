@@ -34,7 +34,7 @@
 
 ⚠️ O parâmetro de configuração do TaikoArcadeLoader está na pasta como `config.toml`.
 
-Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando o [Notepadfis](https://notepad-plus-plus.org/).  
+Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando o [Notepad++](https://notepad-plus-plus.org/).  
 
 ℹ️ O `config.toml` é separado pelas abas, com as opções descritas em `[colchetes]`"
  	Mais informações podem ser encontradas [na página do github do TAL](https://github.com/esuo1198/TaikoArcadeLoader).

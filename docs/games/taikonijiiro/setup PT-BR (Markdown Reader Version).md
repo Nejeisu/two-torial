@@ -36,7 +36,7 @@
 
 Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando o [Notepad++](https://notepad-plus-plus.org/).  
 
-ℹ️ O `config.toml` é separado pelas abas, com as opções descritas em `[colchetes]`"
+ℹ️ O `config.toml` é separado pelas abas, com as opções descritas em `[colchetes]`
  	Mais informações podem ser encontradas [na página do github do TAL](https://github.com/esuo1198/TaikoArcadeLoader).
 	
 

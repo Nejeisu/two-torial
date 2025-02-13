@@ -77,7 +77,7 @@ Abra o arquivo `config.toml` com um editor de sua preferência. Estaremos usando
 	model_res_rate = 1.0
 	```
 
-ℹ️ A aba `[keyboard]` contém configurações relacionadas ao teclado"
+ℹ️ A aba `[keyboard]` contém configurações relacionadas ao teclado
 
 - `auto_ime =` Se colocar como `true`, altera o leiaute do teclado até o jogo ser fechado.
 - `jp_layout =` Deve ser colocado como `true` caso você use teclado japonês **moderno**.

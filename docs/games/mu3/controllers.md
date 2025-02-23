@@ -11,7 +11,7 @@
     check the support section for your controller, or contact the vendor directly. Alternate
     options for the most common controllers are listed below.
 
-    These IO DLLs should be copied to your game's `App\bin\` folder and referenced in
+    These IO DLLs should be copied to your game's `App\package` folder and referenced in
     `segatools.ini` under the `[mu3io]` section.
     
 !!! tip ""
@@ -74,35 +74,50 @@
 
 !!! tip ""
 
-    Mageki allows you to use a mobile device as a ONGEKI controller. It replicates the layout
-    of an arcade ONGEKI controller on your mobile device.
+    Mageki allows you to use a mobile device as a O.N.G.E.K.I. controller. It replicates the layout
+    of an arcade O.N.G.E.K.I. controller on your mobile device.
 
     Mageki supports both Android and iOS devices. For installation instructions, please refer to
     the [English User Manual on the Mageki GitHub Repository](https://github.com/Sanheiii/Mageki/wiki/Mageki-User-Manual).
 
 !!! warning "Configuring ongeki-io and MU3-input.dll"
 
-	When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder.
+	When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder in a way that matches its file structure.
     Modify the `[mu3io]` and `[aimeio]` sections of your existing `segatools.ini` file to look like the following:
 
     ```ini hl_lines="2 5"
     [mu3io]
-    path = MU3Input.dll
+    path=MU3Input.dll
 
     [aimeio]
-    path64 = MU3Input.dll
+    path=MU3Input.dll
     ```
     If these sections do not exist, add them to the end of your `segatools.ini` file.
 
 !!! info "IOConfig doesn't launch for me/This application requires the Windows App Runtime"
 
-    Download and extract the contents of the [Windows App Runtime Version 1.5 Redustributable](https://aka.ms/windowsappsdk/1.5/1.5.240802000/Microsoft.WindowsAppRuntime.Redist.1.5.zip)
+    Download and extract the contents of the [Windows App Runtime Version 1.5 Redistributable](https://aka.ms/windowsappsdk/1.5/1.5.240802000/Microsoft.WindowsAppRuntime.Redist.1.5.zip)
     In the `WindowsAppSDK-Installer-x64` folder run `WindowsAppRuntimeInstall-x64.exe`
 
     If IOConfig still fails to launch, try using the [SelfContained version of ongeki-io](https://github.com/Sanheiii/ongeki-io/releases)
 
 ---
-    
+
+### ONTROLLER
+
+!!! tip ""
+
+    - Navigate to [Mu3IO.NET releases](https://github.com/jujuforce/Mu3IO.NET/releases/) and download `mu3io.dll`. Put this file in your `App\package` folder.
+    - Edit your `segatools.ini` to reference the DLL:
+
+    ```ini hl_lines="4"
+    [mu3io]
+    ; To use a custom O.N.G.E.K.I. IO DLL enter its path here.
+    ; Leave empty if you want to use Segatools built-in keyboard/gamepad input.
+    path=mu3io.dll
+    ```
+
+---
 ### Arcade hardware and other controllers
 
 !!! tip ""
